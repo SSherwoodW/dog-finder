@@ -1,0 +1,38 @@
+/* Style for each dog tag */
+.dog-tag {
+    display: flex;
+    align-items: center;
+    /* Vertically center the content */
+    padding: 10px;
+    /* Add padding for spacing */
+    border: 1px solid #ddd;
+    /* Add a border for separation */
+    margin-bottom: 10px;
+    /* Add margin between dog tags */
+    text-decoration: none;
+    /* Remove underlines from links */
+    color: #333;
+    /* Text color */
+}
+
+/* Style for the thumbnail image */
+.thumbnail {
+    width: 200px;
+    /* Adjust the width as needed */
+    height: 200px;
+    /* Adjust the height as needed */
+    margin-bottom: 15px;
+    /* Add margin between the thumbnail and text */
+}
+
+/* Style for the dog name */
+.dog-name {
+    font-size: 2rem;
+    /* Adjust the font size as needed */
+}
+
+/* Hover effect */
+.dog-tag:hover {
+    background-color: #f5f5f5;
+    /* Change background color on hover */
+}

@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#navbar {
+  
+background-color: #333;
+  /* Background color for the navbar */
+  color: white;
+  /* Text color for navbar links */
+  padding: 10px 20px;
+  /* Add padding to the navbar for spacing */
+  display: flex;
+  /* Use flexbox to align items horizontally */
+  justify-content: space-between;
+  /* Space out items evenly horizontally */
+  align-items: center;
+  /* Center items vertically */
+}
+
+#navbar ul {
+  list-style-type: none;
+  /* Remove bullet points from the list */
+  margin: 0;
+  /* Remove default margin for the list */
+  padding: 0;
+  /* Remove default padding for the list */
+  display: flex;
+  /* Use flexbox to align items horizontally */
+}
+
+#navbar li {
+  margin-right: 20px;
+  display: flex;
+}
+
+#navbar a {
+  text-decoration: none;
+  /* Remove underlines from links */
+  color: white;
+  /* Text color for navbar links */
+  transition: color 0.3s;
+  /* Add a smooth color transition on hover */
+}
+
+#navbar a:hover {
+  color: #FF5733;
+  /* Change text color on hover */
+}
+
